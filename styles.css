@@ -3,5 +3,6 @@
     height: auto;
 }
 
-body {background-image: url("C:\Brittani\WTAMU\CIDM 6303\Projects\Build a Website\CIDM6303code\cidm6303-project1-website-starter-bcastle512\images\vintage-floral-wallpaper-background-1373642927SHx.jpg")
-}
+body {background-image: url("images/vintage-floral-wallpaper-background-1373642927SHx.jpg");}
+
+#finishing {display:inline-block;}
