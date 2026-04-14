@@ -51,8 +51,9 @@ footer{width:100%; padding: 20px}
 /*image collection page specific*/
 .gallery-section {
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 20px 10px;
+  margin: 40px auto;
+  padding: 25px 20px;
+  background-color: rgb(241, 220, 233);border-radius: 12px; border: 2px solid grey;
   text-align: center;
 }
 
