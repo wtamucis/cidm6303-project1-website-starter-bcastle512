@@ -42,7 +42,7 @@
             <input id="address" name="address" type="text" required />
         </label>
         <label for="type">Which type of finishing are you requesting?
-          <select id="referrer" name="referrer">
+          <select id="type" name="type" required>
             <option value="">(select one)</option>
             <option value="1">Ornament</option>
             <option value="2">Stand Up</option>
@@ -67,9 +67,10 @@
         <legend>Embroidery Selection</legend>
         <label for="embroidery-yes"><input id="embroidery-yes" type="radio" name="embroidery" class="inline" checked /> Yes I Want Embroidery (please specify below)</label>
         <label for="embroidery-no"><input id="embroidery-no" type="radio" name="embroidery" class="inline" /> No Embroidery</label>
-        <label for="embrodery">Please provide what you want embroidered on the back of your piece, if applicable: <b>(will follow capital and lowercase letters as input below)</b>: </label>
+        <label for="embroidery">Please provide what you want embroidered on the back of your piece, if applicable: <b>(will follow capital and lowercase letters as input below)</b>
           <textarea id="embroidery" name="embroidery" rows="3" cols="30" placeholder="Love, Mom 2026"></textarea>
-        </label></fieldset>
+        </label>
+    </fieldset>
       <fieldset>
         <label for="details">Please provide any additional details:
           <textarea id="details" name="details" rows="3" cols="30" placeholder="I dislike the color green, please match the cording to the bow on the dog, etc."></textarea>
