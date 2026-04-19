@@ -72,6 +72,8 @@ footer{width:100%; padding: 20px}
 
 .rotate-image {transform: rotate(-90deg);}
 
+.image-credit {text-align: center;}
+
 /*finishing form specific*/
 .form-section {
   width: 80%;
